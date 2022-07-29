@@ -1,0 +1,5 @@
+/.idea/
+/venv/
+/env/
+__pycahche__
+db.sqlite3
