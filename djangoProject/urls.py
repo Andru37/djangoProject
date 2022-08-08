@@ -25,6 +25,6 @@ urlpatterns = {
     path('home/', my_home),
     path('article/<int:article_id>/', article, name='article'),
     path('article/<int:article_id>/<slug:name>', article, name="article_name"),
-    path('password/<slug:my_password>', password, name='password'),
-    path('password/generate/<int:linght>/', generate_password),
+    path('password/<slug:my_password>', password, name='my_password'),
+    path('password/generate/<int:length>/', generate_password),
 }
