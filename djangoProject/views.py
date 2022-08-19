@@ -11,7 +11,7 @@ def profile1(request: HttpRequest):
 
 
 def product1(request: HttpRequest):
-    return render(request, "product.html", {
+    return render(request, "product/product-detail.html", {
         "quantity_null": True
     })
 
